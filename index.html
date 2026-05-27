@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #offer{
+            text-align: center;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     <script src="./index.js"></script>
 
     <button onclick="openTab()">Open Tab</button>
     <button onclick="closeTab()">Close Tab</button>
+    <button onClick="confirmButton()">Confirm</button>
+
+
+    <div id="counter">
+        <h2 id="timer">Offer ends in 00<sub>HH</sub> 00<sub>MM</sub> 00<sub>SS</sub></h2>
+    </div>
+
 </body>
 </html>
